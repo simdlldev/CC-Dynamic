@@ -2,9 +2,9 @@
 
 ## CC Dynamic is a text encryption algorithm that is based on the Caesar Cipher.
 
-But it offers much stronger encryption than the original, solving its biggest problem: **common letter patterns**.
+### But it offers much stronger encryption than the original, solving its biggest problem: **common letter patterns**.
 
-### How does the Caesar Cipher work?
+### How does the Caesar Cipher works?
 
 The Caesar Cipher is one of the oldest forms of cryptography, used by the eponymous leader for his correspondence. The algorithm involves replacing each letter of the original message (plaintext) with the letter found *`n`* positions to the right in the alphabet. In this case, *`n`* is the ***key***.
 
@@ -20,7 +20,7 @@ where `new_pos` corresponds to the position in the alphabet of the "encrypted ch
 
 ![Caesar Cipher explanation image](images/Caesar_Cipher.png)
 
-### How does the CC Dynamic work?
+### How does the CC Dynamic works?
 
 ---
 
@@ -60,7 +60,7 @@ The last component is the metadata model. It is used to check for encoded charac
 
 ![metadata models v: S2.5/S2-4 image](images/Metadata_models.png)
 
-<u>An implementation for must have two scripts: one to encrypt and one to decrypt the texts</u>.
+<u>An implementation must have two scripts: one to encrypt and one to decrypt the texts</u>.
 
 ---
 
@@ -78,7 +78,11 @@ The last component is the metadata model. It is used to check for encoded charac
 
 ## Disclaimer:
 
-**The CC Dynamic algorithm and its implementations have not been approved, reviewed or evaluated by experts. No guarantee is given regarding the operation, security and resistance to any type of attack on the cryptographic system.**
+### **This algorithm was devaloped just for fun.**
+
+#### **The CC Dynamic algorithm and its implementations have not been approved, reviewed or evaluated by experts. No guarantee is given regarding the operation, security and resistance to any type of attack on the cryptographic system.**
+
+**The algorithm and its implementations may be vulnerable to some specific key attacks.**
 
 **In all current implementations only the alphabet string is used as the key and the shift *n* value is static (42).**
 
