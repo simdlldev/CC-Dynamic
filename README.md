@@ -1,3 +1,7 @@
+# Important note: This repository has been archived because CC Dynamic does not offer strong encryption, but it can be easily broken.
+
+---
+
 # CC Dynamic - text encryption-decription algorithm
 
 ## CC Dynamic is a text encryption algorithm that is based on the Caesar Cipher.
